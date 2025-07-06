@@ -56,9 +56,18 @@ input {
     color: #fff;
     background-color: #206CC9;
     cursor: pointer;
+    border: 1px solid white;
 }
 
 input:focus:invalid {
     outline: 0;
     border-bottom: 2px solid red;
+}
+
+.fim button:hover {
+    transition: .5s;
+    transition-property: all;
+    color: #206CC9;
+    background-color: white;
+    border: 1px solid white;
 }
