@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #324B40;
+    color: white;
+    margin: 5vh;
+    font-family: sans-serif;
+}
+
+.principal {
+    width: 40vw;
+    min-height: 70vh;
+    margin: auto;
+    background-color: #2B332F;
+    border-radius: 2%;
+}
+
+.h1-topo {
+    text-align: center;
+    padding: 2%;
+}
+
+input {
+    background-color: #2B332F;
+    width: 95%;
+    margin: 2%;
+    padding: 1.5% 0%;
+    border-bottom: 3px solid #35A073;
+    color: white;
+    font-size: 1.1rem;
+    outline: 0;
+}
+
+label {
+    margin: 0 2%;
+}
+
+.btn {
+    width: 10vw;
+    margin: 2% 0 2% 73%;
+}
+
+input:invalid:focus {
+    border-bottom: 3px solid #0ddb85;
+}
